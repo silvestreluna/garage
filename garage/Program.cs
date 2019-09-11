@@ -1,4 +1,5 @@
-﻿using System;
+﻿using garage.Vehicle;
+using System;
 
 namespace garage
 {
@@ -6,7 +7,10 @@ namespace garage
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var car = new Car();
+            car.BreakingOrLanding();
+            car.DrivingOrFlying();
+
         }
     }
 }
